@@ -11,7 +11,8 @@ struct CollectionViewTypeModel {
     private var type = ["Grid",
                         "TwoColumn",
                         "DistinctSections",
-                        "AdaptiveSections"]
+                        "AdaptiveSections",
+                        "ItemBadges"]
     
     func returnNumberOfTypeCount() -> Int {
         type.count

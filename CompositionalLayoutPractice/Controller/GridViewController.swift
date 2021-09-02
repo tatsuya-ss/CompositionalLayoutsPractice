@@ -58,9 +58,5 @@ extension GridViewController {
         
         return layout
     }
-    
-    static func instantiate() -> GridViewController {
-        let gridVC = UIStoryboard(name: "Grid", bundle: nil).instantiateInitialViewController() as! GridViewController
-        return gridVC
-    }
+
 }

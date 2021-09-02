@@ -48,7 +48,12 @@ extension WWDC19CollectionViewController: UICollectionViewDelegate {
         let twoColumnVC = TwoColumnViewController.instantiate()
         let distinctSectionsVC = DistinctSectionsViewController.instantiate()
         let adaptiveSectionsVC = AdaptiveSectionsViewController.instantiate()
-        let viewControllers = [gridVC, twoColumnVC, distinctSectionsVC, adaptiveSectionsVC]
+        let itemBadgesVC = ItemBadgesViewController.instantiate()
+        let viewControllers = [gridVC,
+                               twoColumnVC,
+                               distinctSectionsVC,
+                               adaptiveSectionsVC,
+                               itemBadgesVC]
         present(viewControllers[indexPath.row], animated: true, completion: nil)
     }
 }

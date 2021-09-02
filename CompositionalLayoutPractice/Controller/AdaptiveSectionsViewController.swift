@@ -9,6 +9,7 @@ import UIKit
 
 final class AdaptiveSectionsViewController: UIViewController {
     
+    
     enum SectionLayoutKind: Int, CaseIterable {
         case list, grid5, grid3, grid2
         func columnCount(for width: CGFloat) -> Int {
@@ -134,15 +135,6 @@ extension AdaptiveSectionsViewController {
             snapshot.appendItems(Array(itemOffset...itemUpperbound))
         }
         dataSource.apply(snapshot, animatingDifferences: false)
-    }
-
-}
-
-extension AdaptiveSectionsViewController {
-    static func instantiate() -> AdaptiveSectionsViewController {
-        let adaptiveSectionsVC = UIStoryboard(name: "AdaptiveSections", bundle: nil)
-            .instantiateInitialViewController() as! AdaptiveSectionsViewController
-        return adaptiveSectionsVC
     }
 
 }

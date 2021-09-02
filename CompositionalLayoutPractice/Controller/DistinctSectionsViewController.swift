@@ -148,12 +148,3 @@ extension DistinctSectionsViewController {
         dataSource.apply(snapshot, animatingDifferences: false)
     }
 }
-
-extension DistinctSectionsViewController {
-    static func instantiate() -> DistinctSectionsViewController {
-        let distinctSectionsVC = UIStoryboard(name: "DistinctSections", bundle: nil)
-            .instantiateInitialViewController() as! DistinctSectionsViewController
-        return distinctSectionsVC
-    }
-
-}

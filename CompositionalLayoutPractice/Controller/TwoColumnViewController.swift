@@ -62,10 +62,5 @@ extension TwoColumnViewController {
         
         return layout
     }
-    
-    static func instantiate() -> TwoColumnViewController {
-        let gridVC = UIStoryboard(name: "TwoColumn", bundle: nil).instantiateInitialViewController() as! TwoColumnViewController
-        return gridVC
-    }
 
 }
