@@ -40,6 +40,12 @@
 		75F33D5E26E0789900E6CF71 /* NumberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D5D26E0789900E6CF71 /* NumberModel.swift */; };
 		75F33D6126E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D5F26E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.swift */; };
 		75F33D6226E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F33D6026E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.xib */; };
+		75F33D6426E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D6326E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift */; };
+		75F33D6726E0B93800E6CF71 /* PinnedSectionHeaderFooter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F33D6626E0B93800E6CF71 /* PinnedSectionHeaderFooter.storyboard */; };
+		75F33D6B26E0BD2C00E6CF71 /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D6926E0BD2C00E6CF71 /* ListCollectionViewCell.swift */; };
+		75F33D6C26E0BD2C00E6CF71 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F33D6A26E0BD2C00E6CF71 /* ListCollectionViewCell.xib */; };
+		75F33D7126E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D6F26E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift */; };
+		75F33D7226E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F33D7026E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +84,12 @@
 		75F33D5D26E0789900E6CF71 /* NumberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberModel.swift; sourceTree = "<group>"; };
 		75F33D5F26E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBadgesCollectionReusableView.swift; sourceTree = "<group>"; };
 		75F33D6026E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemBadgesCollectionReusableView.xib; sourceTree = "<group>"; };
+		75F33D6326E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedSectionHeaderFooterViewController.swift; sourceTree = "<group>"; };
+		75F33D6626E0B93800E6CF71 /* PinnedSectionHeaderFooter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PinnedSectionHeaderFooter.storyboard; sourceTree = "<group>"; };
+		75F33D6926E0BD2C00E6CF71 /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		75F33D6A26E0BD2C00E6CF71 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		75F33D6F26E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryCollectionReusableView.swift; sourceTree = "<group>"; };
+		75F33D7026E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleSupplementaryCollectionReusableView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +189,7 @@
 				75CFFEAC26D5D4EC000FF077 /* DistinctSectionsViewController.swift */,
 				755DF32B26DDB42B004D59CF /* AdaptiveSectionsViewController.swift */,
 				75F33D5026E0747700E6CF71 /* ItemBadgesViewController.swift */,
+				75F33D6326E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -191,6 +204,7 @@
 				75CFFEAF26D5D5F0000FF077 /* DistinctSections */,
 				75ADA2CC26DDB31C0029E7C8 /* AdaptiveSections */,
 				75F33D5226E0748900E6CF71 /* ItemBadges */,
+				75F33D6526E0B8F500E6CF71 /* PinnedSectionHeaderFooter */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -269,6 +283,34 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		75F33D6526E0B8F500E6CF71 /* PinnedSectionHeaderFooter */ = {
+			isa = PBXGroup;
+			children = (
+				75F33D6626E0B93800E6CF71 /* PinnedSectionHeaderFooter.storyboard */,
+				75F33D6926E0BD2C00E6CF71 /* ListCollectionViewCell.swift */,
+				75F33D6A26E0BD2C00E6CF71 /* ListCollectionViewCell.xib */,
+				75F33D6D26E0C4C000E6CF71 /* Header */,
+				75F33D6E26E0C4CC00E6CF71 /* Footer */,
+			);
+			path = PinnedSectionHeaderFooter;
+			sourceTree = "<group>";
+		};
+		75F33D6D26E0C4C000E6CF71 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				75F33D6F26E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift */,
+				75F33D7026E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		75F33D6E26E0C4CC00E6CF71 /* Footer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Footer;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -328,7 +370,9 @@
 			files = (
 				75CFFEA426D5A994000FF077 /* TwoColumn.storyboard in Resources */,
 				75F33D5926E074EB00E6CF71 /* ItemBadgesCollectionViewCell.xib in Resources */,
+				75F33D6726E0B93800E6CF71 /* PinnedSectionHeaderFooter.storyboard in Resources */,
 				75F33D5426E074B000E6CF71 /* ItemBadges.storyboard in Resources */,
+				75F33D7226E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib in Resources */,
 				75ADA2CE26DDB34F0029E7C8 /* AdaptiveSections.storyboard in Resources */,
 				75DC7C3A26D4E6BA00A142BF /* GridCollectionViewCell.xib in Resources */,
 				75DC7C1226D3962F00A142BF /* LaunchScreen.storyboard in Resources */,
@@ -339,6 +383,7 @@
 				75DC7C2926D3A77C00A142BF /* WWDC19CollectionViewCell.xib in Resources */,
 				75CFFEA926D5AA21000FF077 /* TwoColumnCollectionViewCell.xib in Resources */,
 				75F33D6226E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.xib in Resources */,
+				75F33D6C26E0BD2C00E6CF71 /* ListCollectionViewCell.xib in Resources */,
 				75CFFEB126D5D620000FF077 /* DistinctSections.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,6 +397,8 @@
 			files = (
 				75DC7C2026D3990D00A142BF /* WWDC19CollectionViewController.swift in Sources */,
 				75F33D5126E0747700E6CF71 /* ItemBadgesViewController.swift in Sources */,
+				75F33D7126E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift in Sources */,
+				75F33D6426E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift in Sources */,
 				75F33D5E26E0789900E6CF71 /* NumberModel.swift in Sources */,
 				75DC7C0626D3962B00A142BF /* AppDelegate.swift in Sources */,
 				75F33D6126E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.swift in Sources */,
@@ -364,6 +411,7 @@
 				75CFFEB826D66EDF000FF077 /* ListCell.swift in Sources */,
 				75DC7C2826D3A77C00A142BF /* WWDC19CollectionViewCell.swift in Sources */,
 				75DC7C2C26D4E45500A142BF /* CollectionViewTypeModel.swift in Sources */,
+				75F33D6B26E0BD2C00E6CF71 /* ListCollectionViewCell.swift in Sources */,
 				75CFFEA826D5AA21000FF077 /* TwoColumnCollectionViewCell.swift in Sources */,
 				755E9B0826D8DCA600A17709 /* TextCell.swift in Sources */,
 				75F33D5826E074EB00E6CF71 /* ItemBadgesCollectionViewCell.swift in Sources */,
