@@ -46,6 +46,9 @@
 		75F33D6C26E0BD2C00E6CF71 /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F33D6A26E0BD2C00E6CF71 /* ListCollectionViewCell.xib */; };
 		75F33D7126E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D6F26E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift */; };
 		75F33D7226E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75F33D7026E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib */; };
+		75F33D7726E0CF7600E6CF71 /* SectionDecorationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D7626E0CF7600E6CF71 /* SectionDecorationViewController.swift */; };
+		75F33D7A26E0CFA600E6CF71 /* SectionDecoration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F33D7926E0CFA600E6CF71 /* SectionDecoration.storyboard */; };
+		75F33D7E26E0D0A800E6CF71 /* SectionBackgroundDecorationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F33D7D26E0D0A800E6CF71 /* SectionBackgroundDecorationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +93,9 @@
 		75F33D6A26E0BD2C00E6CF71 /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
 		75F33D6F26E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleSupplementaryCollectionReusableView.swift; sourceTree = "<group>"; };
 		75F33D7026E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleSupplementaryCollectionReusableView.xib; sourceTree = "<group>"; };
+		75F33D7626E0CF7600E6CF71 /* SectionDecorationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDecorationViewController.swift; sourceTree = "<group>"; };
+		75F33D7926E0CFA600E6CF71 /* SectionDecoration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SectionDecoration.storyboard; sourceTree = "<group>"; };
+		75F33D7D26E0D0A800E6CF71 /* SectionBackgroundDecorationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionBackgroundDecorationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +196,7 @@
 				755DF32B26DDB42B004D59CF /* AdaptiveSectionsViewController.swift */,
 				75F33D5026E0747700E6CF71 /* ItemBadgesViewController.swift */,
 				75F33D6326E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift */,
+				75F33D7626E0CF7600E6CF71 /* SectionDecorationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +212,7 @@
 				75ADA2CC26DDB31C0029E7C8 /* AdaptiveSections */,
 				75F33D5226E0748900E6CF71 /* ItemBadges */,
 				75F33D6526E0B8F500E6CF71 /* PinnedSectionHeaderFooter */,
+				75F33D7826E0CF7F00E6CF71 /* SectionDecoration */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -311,6 +319,23 @@
 			path = Footer;
 			sourceTree = "<group>";
 		};
+		75F33D7826E0CF7F00E6CF71 /* SectionDecoration */ = {
+			isa = PBXGroup;
+			children = (
+				75F33D7926E0CFA600E6CF71 /* SectionDecoration.storyboard */,
+				75F33D7C26E0D07500E6CF71 /* ReusableView */,
+			);
+			path = SectionDecoration;
+			sourceTree = "<group>";
+		};
+		75F33D7C26E0D07500E6CF71 /* ReusableView */ = {
+			isa = PBXGroup;
+			children = (
+				75F33D7D26E0D0A800E6CF71 /* SectionBackgroundDecorationView.swift */,
+			);
+			path = ReusableView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,6 +403,7 @@
 				75DC7C1226D3962F00A142BF /* LaunchScreen.storyboard in Resources */,
 				75DC7C1E26D398CC00A142BF /* WWDC19CollectionView.storyboard in Resources */,
 				75DC7C0F26D3962F00A142BF /* Assets.xcassets in Resources */,
+				75F33D7A26E0CFA600E6CF71 /* SectionDecoration.storyboard in Resources */,
 				755E9B0C26D8EA0B00A17709 /* TextCollectionViewCell.xib in Resources */,
 				75DC7C2F26D4E60300A142BF /* Grid.storyboard in Resources */,
 				75DC7C2926D3A77C00A142BF /* WWDC19CollectionViewCell.xib in Resources */,
@@ -395,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F33D7726E0CF7600E6CF71 /* SectionDecorationViewController.swift in Sources */,
 				75DC7C2026D3990D00A142BF /* WWDC19CollectionViewController.swift in Sources */,
 				75F33D5126E0747700E6CF71 /* ItemBadgesViewController.swift in Sources */,
 				75F33D7126E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift in Sources */,
@@ -410,6 +437,7 @@
 				75DC7C3926D4E6BA00A142BF /* GridCollectionViewCell.swift in Sources */,
 				75CFFEB826D66EDF000FF077 /* ListCell.swift in Sources */,
 				75DC7C2826D3A77C00A142BF /* WWDC19CollectionViewCell.swift in Sources */,
+				75F33D7E26E0D0A800E6CF71 /* SectionBackgroundDecorationView.swift in Sources */,
 				75DC7C2C26D4E45500A142BF /* CollectionViewTypeModel.swift in Sources */,
 				75F33D6B26E0BD2C00E6CF71 /* ListCollectionViewCell.swift in Sources */,
 				75CFFEA826D5AA21000FF077 /* TwoColumnCollectionViewCell.swift in Sources */,
