@@ -1,2 +1,2 @@
 # CompositionalLayoutsPractice
-WWDC19の動画を参考に作成してみました。
+WWDC19と20の動画を参考に作成してみました。
