@@ -17,6 +17,8 @@
 		758705E526E5981E00E894CA /* NestedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758705E426E5981E00E894CA /* NestedGroupsViewController.swift */; };
 		758705E826E5A95800E894CA /* OrthogonalScrollBehavior.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758705E726E5A95800E894CA /* OrthogonalScrollBehavior.storyboard */; };
 		758705EA26E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758705E926E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift */; };
+		758705EE26E5F58300E894CA /* SimpleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758705ED26E5F58300E894CA /* SimpleListViewController.swift */; };
+		758705F026E5F59700E894CA /* SimpleList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758705EF26E5F59700E894CA /* SimpleList.storyboard */; };
 		75ADA2CE26DDB34F0029E7C8 /* AdaptiveSections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ADA2CD26DDB34F0029E7C8 /* AdaptiveSections.storyboard */; };
 		75CFFEA426D5A994000FF077 /* TwoColumn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CFFEA326D5A994000FF077 /* TwoColumn.storyboard */; };
 		75CFFEA826D5AA21000FF077 /* TwoColumnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFFEA626D5AA21000FF077 /* TwoColumnCollectionViewCell.swift */; };
@@ -66,6 +68,8 @@
 		758705E426E5981E00E894CA /* NestedGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupsViewController.swift; sourceTree = "<group>"; };
 		758705E726E5A95800E894CA /* OrthogonalScrollBehavior.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrthogonalScrollBehavior.storyboard; sourceTree = "<group>"; };
 		758705E926E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollBehaviorViewController.swift; sourceTree = "<group>"; };
+		758705ED26E5F58300E894CA /* SimpleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleListViewController.swift; sourceTree = "<group>"; };
+		758705EF26E5F59700E894CA /* SimpleList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleList.storyboard; sourceTree = "<group>"; };
 		75ADA2CD26DDB34F0029E7C8 /* AdaptiveSections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdaptiveSections.storyboard; sourceTree = "<group>"; };
 		75CFFEA326D5A994000FF077 /* TwoColumn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TwoColumn.storyboard; sourceTree = "<group>"; };
 		75CFFEA626D5AA21000FF077 /* TwoColumnCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -140,6 +144,22 @@
 				758705E726E5A95800E894CA /* OrthogonalScrollBehavior.storyboard */,
 			);
 			path = OrthogonalScrollBehavior;
+			sourceTree = "<group>";
+		};
+		758705EB26E5F54900E894CA /* WWDC20 */ = {
+			isa = PBXGroup;
+			children = (
+				758705EF26E5F59700E894CA /* SimpleList.storyboard */,
+			);
+			path = WWDC20;
+			sourceTree = "<group>";
+		};
+		758705EC26E5F55E00E894CA /* WWDC20 */ = {
+			isa = PBXGroup;
+			children = (
+				758705ED26E5F58300E894CA /* SimpleListViewController.swift */,
+			);
+			path = WWDC20;
 			sourceTree = "<group>";
 		};
 		75ADA2CC26DDB31C0029E7C8 /* AdaptiveSections */ = {
@@ -232,6 +252,7 @@
 				75F33D7626E0CF7600E6CF71 /* SectionDecorationViewController.swift */,
 				758705E426E5981E00E894CA /* NestedGroupsViewController.swift */,
 				758705E926E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift */,
+				758705EC26E5F55E00E894CA /* WWDC20 */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +270,7 @@
 				75F33D7826E0CF7F00E6CF71 /* SectionDecoration */,
 				758705E126E5828800E894CA /* NestedGroups */,
 				758705E626E5A91400E894CA /* OrthogonalScrollBehavior */,
+				758705EB26E5F54900E894CA /* WWDC20 */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -442,6 +464,7 @@
 				75DC7C1226D3962F00A142BF /* LaunchScreen.storyboard in Resources */,
 				75DC7C1E26D398CC00A142BF /* WWDC19CollectionView.storyboard in Resources */,
 				75DC7C0F26D3962F00A142BF /* Assets.xcassets in Resources */,
+				758705F026E5F59700E894CA /* SimpleList.storyboard in Resources */,
 				75F33D7A26E0CFA600E6CF71 /* SectionDecoration.storyboard in Resources */,
 				755E9B0C26D8EA0B00A17709 /* TextCollectionViewCell.xib in Resources */,
 				75DC7C2926D3A77C00A142BF /* WWDC19CollectionViewCell.xib in Resources */,
@@ -479,6 +502,7 @@
 				75CFFEB826D66EDF000FF077 /* ListCell.swift in Sources */,
 				75DC7C2826D3A77C00A142BF /* WWDC19CollectionViewCell.swift in Sources */,
 				75F33D7E26E0D0A800E6CF71 /* SectionBackgroundDecorationView.swift in Sources */,
+				758705EE26E5F58300E894CA /* SimpleListViewController.swift in Sources */,
 				75F33D6B26E0BD2C00E6CF71 /* ListCollectionViewCell.swift in Sources */,
 				75CFFEA826D5AA21000FF077 /* TwoColumnCollectionViewCell.swift in Sources */,
 				755E9B0826D8DCA600A17709 /* TextCell.swift in Sources */,

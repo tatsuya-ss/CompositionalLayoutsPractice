@@ -16,7 +16,8 @@ struct CollectionViewTypeModel {
                         "PinnedSection",
                         "SectionDecoration",
                         "NestedGroups",
-                        "OrthogonalScrollBehavior"]
+                        "OrthogonalScrollBehavior",
+                        "SimpleList"]
     
     func returnNumberOfTypeCount() -> Int {
         type.count

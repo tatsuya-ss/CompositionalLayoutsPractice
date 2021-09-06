@@ -53,6 +53,7 @@ extension WWDC19CollectionViewController: UICollectionViewDelegate {
         let sectionBackgroundVC = SectionDecorationViewController.instantiate()
         let nestedGroupsVC = NestedGroupsViewController.instantiate()
         let orthogonalScrollBehaviorVC = OrthogonalScrollBehaviorViewController.instantiate()
+        let simpleListVC = SimpleListViewController.instantiate()
         let viewControllers = [gridVC,
                                twoColumnVC,
                                distinctSectionsVC,
@@ -61,7 +62,8 @@ extension WWDC19CollectionViewController: UICollectionViewDelegate {
                                pinnedSectionVC,
                                sectionBackgroundVC,
                                nestedGroupsVC,
-                               orthogonalScrollBehaviorVC]
+                               orthogonalScrollBehaviorVC,
+                               simpleListVC]
         present(viewControllers[indexPath.row], animated: true, completion: nil)
     }
 }
