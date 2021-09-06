@@ -51,13 +51,17 @@ extension WWDC19CollectionViewController: UICollectionViewDelegate {
         let itemBadgesVC = ItemBadgesViewController.instantiate()
         let pinnedSectionVC = PinnedSectionHeaderFooterViewController.instantiate()
         let sectionBackgroundVC = SectionDecorationViewController.instantiate()
+        let nestedGroupsVC = NestedGroupsViewController.instantiate()
+        let orthogonalScrollBehaviorVC = OrthogonalScrollBehaviorViewController.instantiate()
         let viewControllers = [gridVC,
                                twoColumnVC,
                                distinctSectionsVC,
                                adaptiveSectionsVC,
                                itemBadgesVC,
                                pinnedSectionVC,
-                               sectionBackgroundVC]
+                               sectionBackgroundVC,
+                               nestedGroupsVC,
+                               orthogonalScrollBehaviorVC]
         present(viewControllers[indexPath.row], animated: true, completion: nil)
     }
 }

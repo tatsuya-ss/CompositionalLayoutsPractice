@@ -11,6 +11,12 @@
 		755E9B0826D8DCA600A17709 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E9B0726D8DCA600A17709 /* TextCell.swift */; };
 		755E9B0B26D8EA0B00A17709 /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E9B0926D8EA0B00A17709 /* TextCollectionViewCell.swift */; };
 		755E9B0C26D8EA0B00A17709 /* TextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 755E9B0A26D8EA0B00A17709 /* TextCollectionViewCell.xib */; };
+		758705DE26E5815500E894CA /* CollectionViewTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758705DD26E5815500E894CA /* CollectionViewTypeModel.swift */; };
+		758705E026E5820700E894CA /* Grid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758705DF26E5820700E894CA /* Grid.storyboard */; };
+		758705E326E582A900E894CA /* NestedGroups.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758705E226E582A900E894CA /* NestedGroups.storyboard */; };
+		758705E526E5981E00E894CA /* NestedGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758705E426E5981E00E894CA /* NestedGroupsViewController.swift */; };
+		758705E826E5A95800E894CA /* OrthogonalScrollBehavior.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758705E726E5A95800E894CA /* OrthogonalScrollBehavior.storyboard */; };
+		758705EA26E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758705E926E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift */; };
 		75ADA2CE26DDB34F0029E7C8 /* AdaptiveSections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75ADA2CD26DDB34F0029E7C8 /* AdaptiveSections.storyboard */; };
 		75CFFEA426D5A994000FF077 /* TwoColumn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75CFFEA326D5A994000FF077 /* TwoColumn.storyboard */; };
 		75CFFEA826D5AA21000FF077 /* TwoColumnCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CFFEA626D5AA21000FF077 /* TwoColumnCollectionViewCell.swift */; };
@@ -26,8 +32,6 @@
 		75DC7C2026D3990D00A142BF /* WWDC19CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC7C1F26D3990D00A142BF /* WWDC19CollectionViewController.swift */; };
 		75DC7C2826D3A77C00A142BF /* WWDC19CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC7C2626D3A77C00A142BF /* WWDC19CollectionViewCell.swift */; };
 		75DC7C2926D3A77C00A142BF /* WWDC19CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75DC7C2726D3A77C00A142BF /* WWDC19CollectionViewCell.xib */; };
-		75DC7C2C26D4E45500A142BF /* CollectionViewTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC7C2B26D4E45500A142BF /* CollectionViewTypeModel.swift */; };
-		75DC7C2F26D4E60300A142BF /* Grid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75DC7C2E26D4E60300A142BF /* Grid.storyboard */; };
 		75DC7C3126D4E62500A142BF /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC7C3026D4E62500A142BF /* GridViewController.swift */; };
 		75DC7C3926D4E6BA00A142BF /* GridCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC7C3726D4E6BA00A142BF /* GridCollectionViewCell.swift */; };
 		75DC7C3A26D4E6BA00A142BF /* GridCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75DC7C3826D4E6BA00A142BF /* GridCollectionViewCell.xib */; };
@@ -56,6 +60,12 @@
 		755E9B0726D8DCA600A17709 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		755E9B0926D8EA0B00A17709 /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
 		755E9B0A26D8EA0B00A17709 /* TextCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCollectionViewCell.xib; sourceTree = "<group>"; };
+		758705DD26E5815500E894CA /* CollectionViewTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTypeModel.swift; sourceTree = "<group>"; };
+		758705DF26E5820700E894CA /* Grid.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Grid.storyboard; sourceTree = "<group>"; };
+		758705E226E582A900E894CA /* NestedGroups.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NestedGroups.storyboard; sourceTree = "<group>"; };
+		758705E426E5981E00E894CA /* NestedGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedGroupsViewController.swift; sourceTree = "<group>"; };
+		758705E726E5A95800E894CA /* OrthogonalScrollBehavior.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OrthogonalScrollBehavior.storyboard; sourceTree = "<group>"; };
+		758705E926E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthogonalScrollBehaviorViewController.swift; sourceTree = "<group>"; };
 		75ADA2CD26DDB34F0029E7C8 /* AdaptiveSections.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AdaptiveSections.storyboard; sourceTree = "<group>"; };
 		75CFFEA326D5A994000FF077 /* TwoColumn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TwoColumn.storyboard; sourceTree = "<group>"; };
 		75CFFEA626D5AA21000FF077 /* TwoColumnCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -69,12 +79,10 @@
 		75DC7C0E26D3962F00A142BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75DC7C1126D3962F00A142BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75DC7C1326D3962F00A142BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75DC7C1D26D398CB00A142BF /* WWDC19CollectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = WWDC19CollectionView.storyboard; path = CompositionalLayoutPractice/View/WWDC19CollectionView.storyboard; sourceTree = SOURCE_ROOT; };
+		75DC7C1D26D398CB00A142BF /* WWDC19CollectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = WWDC19CollectionView.storyboard; path = CompositionalLayoutPractice/View/WWDC19/WWDC19CollectionView.storyboard; sourceTree = SOURCE_ROOT; };
 		75DC7C1F26D3990D00A142BF /* WWDC19CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC19CollectionViewController.swift; sourceTree = "<group>"; };
 		75DC7C2626D3A77C00A142BF /* WWDC19CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC19CollectionViewCell.swift; sourceTree = "<group>"; };
 		75DC7C2726D3A77C00A142BF /* WWDC19CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WWDC19CollectionViewCell.xib; sourceTree = "<group>"; };
-		75DC7C2B26D4E45500A142BF /* CollectionViewTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewTypeModel.swift; path = "CompositionalLayoutPractice/View/New Group/CollectionViewTypeModel.swift"; sourceTree = SOURCE_ROOT; };
-		75DC7C2E26D4E60300A142BF /* Grid.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Grid.storyboard; path = "CompositionalLayoutPractice/View/New Group/Grid.storyboard"; sourceTree = SOURCE_ROOT; };
 		75DC7C3026D4E62500A142BF /* GridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
 		75DC7C3726D4E6BA00A142BF /* GridCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GridCollectionViewCell.swift; path = CompositionalLayoutPractice/View/Grid/GridCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		75DC7C3826D4E6BA00A142BF /* GridCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GridCollectionViewCell.xib; path = CompositionalLayoutPractice/View/Grid/GridCollectionViewCell.xib; sourceTree = SOURCE_ROOT; };
@@ -109,6 +117,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		758705DC26E5809A00E894CA /* WWDC19 */ = {
+			isa = PBXGroup;
+			children = (
+				75DC7C1D26D398CB00A142BF /* WWDC19CollectionView.storyboard */,
+				75DC7C2526D3A73A00A142BF /* Cell */,
+			);
+			path = WWDC19;
+			sourceTree = "<group>";
+		};
+		758705E126E5828800E894CA /* NestedGroups */ = {
+			isa = PBXGroup;
+			children = (
+				758705E226E582A900E894CA /* NestedGroups.storyboard */,
+			);
+			path = NestedGroups;
+			sourceTree = "<group>";
+		};
+		758705E626E5A91400E894CA /* OrthogonalScrollBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				758705E726E5A95800E894CA /* OrthogonalScrollBehavior.storyboard */,
+			);
+			path = OrthogonalScrollBehavior;
+			sourceTree = "<group>";
+		};
 		75ADA2CC26DDB31C0029E7C8 /* AdaptiveSections */ = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +230,8 @@
 				75F33D5026E0747700E6CF71 /* ItemBadgesViewController.swift */,
 				75F33D6326E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift */,
 				75F33D7626E0CF7600E6CF71 /* SectionDecorationViewController.swift */,
+				758705E426E5981E00E894CA /* NestedGroupsViewController.swift */,
+				758705E926E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -204,8 +239,7 @@
 		75DC7C1A26D3981500A142BF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				75DC7C1D26D398CB00A142BF /* WWDC19CollectionView.storyboard */,
-				75DC7C2526D3A73A00A142BF /* Cell */,
+				758705DC26E5809A00E894CA /* WWDC19 */,
 				75DC7C2D26D4E5EC00A142BF /* Grid */,
 				75DC7C3E26D5A83500A142BF /* TwoColumn */,
 				75CFFEAF26D5D5F0000FF077 /* DistinctSections */,
@@ -213,6 +247,8 @@
 				75F33D5226E0748900E6CF71 /* ItemBadges */,
 				75F33D6526E0B8F500E6CF71 /* PinnedSectionHeaderFooter */,
 				75F33D7826E0CF7F00E6CF71 /* SectionDecoration */,
+				758705E126E5828800E894CA /* NestedGroups */,
+				758705E626E5A91400E894CA /* OrthogonalScrollBehavior */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,7 +266,7 @@
 		75DC7C2A26D4E43D00A142BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				75DC7C2B26D4E45500A142BF /* CollectionViewTypeModel.swift */,
+				758705DD26E5815500E894CA /* CollectionViewTypeModel.swift */,
 				75F33D5D26E0789900E6CF71 /* NumberModel.swift */,
 			);
 			path = Model;
@@ -239,7 +275,7 @@
 		75DC7C2D26D4E5EC00A142BF /* Grid */ = {
 			isa = PBXGroup;
 			children = (
-				75DC7C2E26D4E60300A142BF /* Grid.storyboard */,
+				758705DF26E5820700E894CA /* Grid.storyboard */,
 				75DC7C3626D4E6AA00A142BF /* Cell */,
 			);
 			path = Grid;
@@ -393,19 +429,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				758705E026E5820700E894CA /* Grid.storyboard in Resources */,
 				75CFFEA426D5A994000FF077 /* TwoColumn.storyboard in Resources */,
+				758705E826E5A95800E894CA /* OrthogonalScrollBehavior.storyboard in Resources */,
 				75F33D5926E074EB00E6CF71 /* ItemBadgesCollectionViewCell.xib in Resources */,
 				75F33D6726E0B93800E6CF71 /* PinnedSectionHeaderFooter.storyboard in Resources */,
 				75F33D5426E074B000E6CF71 /* ItemBadges.storyboard in Resources */,
 				75F33D7226E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.xib in Resources */,
 				75ADA2CE26DDB34F0029E7C8 /* AdaptiveSections.storyboard in Resources */,
 				75DC7C3A26D4E6BA00A142BF /* GridCollectionViewCell.xib in Resources */,
+				758705E326E582A900E894CA /* NestedGroups.storyboard in Resources */,
 				75DC7C1226D3962F00A142BF /* LaunchScreen.storyboard in Resources */,
 				75DC7C1E26D398CC00A142BF /* WWDC19CollectionView.storyboard in Resources */,
 				75DC7C0F26D3962F00A142BF /* Assets.xcassets in Resources */,
 				75F33D7A26E0CFA600E6CF71 /* SectionDecoration.storyboard in Resources */,
 				755E9B0C26D8EA0B00A17709 /* TextCollectionViewCell.xib in Resources */,
-				75DC7C2F26D4E60300A142BF /* Grid.storyboard in Resources */,
 				75DC7C2926D3A77C00A142BF /* WWDC19CollectionViewCell.xib in Resources */,
 				75CFFEA926D5AA21000FF077 /* TwoColumnCollectionViewCell.xib in Resources */,
 				75F33D6226E0A6B400E6CF71 /* ItemBadgesCollectionReusableView.xib in Resources */,
@@ -423,6 +461,9 @@
 			files = (
 				75F33D7726E0CF7600E6CF71 /* SectionDecorationViewController.swift in Sources */,
 				75DC7C2026D3990D00A142BF /* WWDC19CollectionViewController.swift in Sources */,
+				758705DE26E5815500E894CA /* CollectionViewTypeModel.swift in Sources */,
+				758705E526E5981E00E894CA /* NestedGroupsViewController.swift in Sources */,
+				758705EA26E5A97F00E894CA /* OrthogonalScrollBehaviorViewController.swift in Sources */,
 				75F33D5126E0747700E6CF71 /* ItemBadgesViewController.swift in Sources */,
 				75F33D7126E0C50400E6CF71 /* TitleSupplementaryCollectionReusableView.swift in Sources */,
 				75F33D6426E0B8E300E6CF71 /* PinnedSectionHeaderFooterViewController.swift in Sources */,
@@ -438,7 +479,6 @@
 				75CFFEB826D66EDF000FF077 /* ListCell.swift in Sources */,
 				75DC7C2826D3A77C00A142BF /* WWDC19CollectionViewCell.swift in Sources */,
 				75F33D7E26E0D0A800E6CF71 /* SectionBackgroundDecorationView.swift in Sources */,
-				75DC7C2C26D4E45500A142BF /* CollectionViewTypeModel.swift in Sources */,
 				75F33D6B26E0BD2C00E6CF71 /* ListCollectionViewCell.swift in Sources */,
 				75CFFEA826D5AA21000FF077 /* TwoColumnCollectionViewCell.swift in Sources */,
 				755E9B0826D8DCA600A17709 /* TextCell.swift in Sources */,

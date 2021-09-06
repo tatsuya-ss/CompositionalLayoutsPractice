@@ -23,5 +23,9 @@ class GridCollectionViewCell: UICollectionViewCell {
         let number = String(number)
         numberLabel.text = number
     }
+    
+    func changeCornerRadius(cornerRadius: CGFloat) {
+        layer.cornerRadius = cornerRadius
+    }
 
 }
